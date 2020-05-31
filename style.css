@@ -1,0 +1,84 @@
+body {
+    margin: 3rem;
+    text-align: center;
+    background-color: #252a34;
+    color: white;
+}
+
+h1 {
+    font-family: 'Squada One',
+        cursive;
+    font-size: 3rem;
+    color: #08d9d6;
+}
+
+footer {
+    background-color: #252a34;
+    width: 100%;
+    position: fixed;
+    padding: 0.5rem;
+    left: 0;
+    bottom: 0;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: #ff2e63;
+}
+
+.controls {
+    font-size: 1.2rem;
+    width: 100%;
+}
+
+.set {
+    position: absolute;
+    margin-top: 5%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.disc {
+    width: 12rem;
+    height: 12rem;
+}
+
+input[type="image"] {
+    border: none;
+    outline: none;
+}
+
+input[type="image"]:active,
+.flash {
+    -webkit-filter: drop-shadow(5px 5px 5px white);
+    filter: drop-shadow(5px 5px 5px white);
+}
+
+@media (max-width: 500px) {
+    .set {
+        position: absolute;
+        margin-top: 10%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+    }
+
+    .column {
+        position: relative;
+        width: 100%;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .disc {
+        width: 7rem;
+        height: 7rem;
+    }
+}
