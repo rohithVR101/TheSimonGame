@@ -1,6 +1,6 @@
 # The Simon Game
 
-https://rohithvr101.github.io/thesimongame
+https://rohithvr101.github.io/TheSimonGame/
 
 The popular 80s Simon memory game made for web with jQuery. 
 
